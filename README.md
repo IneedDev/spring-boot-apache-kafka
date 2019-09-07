@@ -9,6 +9,7 @@ Install apache kafka server
 start spring application
 
 start consumer listigin on defined in spring app topic:
+
 .\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic YOUR_TOPIC_DEFINED_SPRING_APP --from-beginning
 
 
